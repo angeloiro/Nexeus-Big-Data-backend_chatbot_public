@@ -1,0 +1,28 @@
+# Framework y servidor
+fastapi
+uvicorn
+
+# Base de datos (MongoDB con Motor)
+motor
+
+# Validación de datos con Pydantic
+pydantic
+pydantic[email]
+
+# Manejo de variables de entorno
+python-dotenv
+
+# Generación de PDFs
+reportlab
+
+# Envío de correos electrónicos
+smtplib
+email-validator
+
+# Seguridad
+passlib[bcrypt]  # Para hashing de contraseñas
+pyjwt  # Manejo de tokens JWT
+
+# Testing
+pytest
+httpx
